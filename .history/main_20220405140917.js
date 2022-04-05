@@ -20,7 +20,6 @@ function returnDuplicates(arr, n) {
   return duplicates;
 }
 
-//much faster
 function checkNextNDuplicatesWithSets(arr, n) {
   let elements = new Set();
   let duplicates = new Set();
